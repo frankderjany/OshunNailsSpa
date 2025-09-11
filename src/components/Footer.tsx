@@ -6,10 +6,10 @@ const Footer = () => {
 
   const handleSocialClick = (platform: string) => {
     const urls = {
-      instagram: 'https://instagram.com/serenitynailsspa',
-      facebook: 'https://facebook.com/serenitynailsspa',
-      tiktok: 'https://tiktok.com/@serenitynailsspa',
-      whatsapp: 'https://wa.me/1234567890?text=Hi! I found you through your website.'
+      instagram: 'https://www.instagram.com/oshunnailsspa?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+      facebook: 'https://facebook.com/oshunnailsspa',
+      tiktok: 'https://tiktok.com/@oshunnailsspa',
+      whatsapp: 'https://wa.me/+96170599348?text=Hi! I found you through your website.'
     };
     
     window.open(urls[platform as keyof typeof urls], '_blank');
@@ -22,48 +22,48 @@ const Footer = () => {
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             {/* Logo and Description */}
             <div className="md:col-span-2">
-              <h3 className="text-3xl font-serif font-bold mb-4">
-                Serenity Nails Spa
-              </h3>
-              <p className="text-background/80 mb-6 leading-relaxed">
-                Where beauty meets tranquility. Experience the perfect blend of 
-                luxury nail care and peaceful ambiance in our minimalist sanctuary.
-              </p>
-              <div className="flex space-x-4">
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="border-background/30 hover:bg-background hover:text-foreground smooth-transition"
-                  onClick={() => handleSocialClick('instagram')}
-                >
-                  <Instagram size={20} />
-                </Button>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="border-background/30 hover:bg-background hover:text-foreground smooth-transition"
-                  onClick={() => handleSocialClick('facebook')}
-                >
-                  <Facebook size={20} />
-                </Button>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="border-background/30 hover:bg-background hover:text-foreground smooth-transition"
-                  onClick={() => handleSocialClick('tiktok')}
-                >
-                  <Music size={20} />
-                </Button>
-                <Button
-                  variant="outline"
-                  size="icon"
-                  className="border-background/30 hover:bg-background hover:text-foreground smooth-transition"
-                  onClick={() => handleSocialClick('whatsapp')}
-                >
-                  <MessageCircle size={20} />
-                </Button>
-              </div>
-            </div>
+  <h3 className="text-3xl font-serif font-bold mb-4">
+    Oshun Nails Spa
+  </h3>
+  <p className="text-background/80 mb-6 leading-relaxed">
+    Where beauty meets tranquility. Experience the perfect blend of 
+    luxury nail care and peaceful ambiance in our minimalist sanctuary.
+  </p>
+  <div className="flex space-x-4">
+    <Button
+      variant="outline"
+      size="icon"
+      className="border-background/30 hover:bg-background smooth-transition"
+      onClick={() => handleSocialClick('instagram')}
+    >
+      <Instagram size={20} className="text-black" />
+    </Button>
+    <Button
+      variant="outline"
+      size="icon"
+      className="border-background/30 hover:bg-background smooth-transition"
+      onClick={() => handleSocialClick('facebook')}
+    >
+      <Facebook size={20} className="text-black" />
+    </Button>
+    <Button
+      variant="outline"
+      size="icon"
+      className="border-background/30 hover:bg-background smooth-transition"
+      onClick={() => handleSocialClick('tiktok')}
+    >
+      <Music size={20} className="text-black" />
+    </Button>
+    <Button
+      variant="outline"
+      size="icon"
+      className="border-background/30 hover:bg-background smooth-transition"
+      onClick={() => handleSocialClick('whatsapp')}
+    >
+      <MessageCircle size={20} className="text-black" />
+    </Button>
+  </div>
+</div>
 
             {/* Quick Links */}
             <div>
@@ -100,29 +100,20 @@ const Footer = () => {
             <div>
               <h4 className="text-xl font-serif font-medium mb-4">Contact</h4>
               <div className="space-y-3 text-background/80">
-                <p>123 Serenity Street</p>
+                <p>123 Oshun Street</p>
                 <p>Beauty District, BD 12345</p>
-                <p>(555) 123-4567</p>
-                <p>hello@serenitynailsspa.com</p>
+                <p>+961 70 599 348</p>
+                <p>hello@oshunnailsspa.com</p>
               </div>
             </div>
           </div>
 
           {/* Bottom Section */}
-          <div className="pt-8 border-t border-background/20">
+          <div className="pt-8 border-t border-background/20 place-items-center">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-background/60 text-sm mb-4 md:mb-0">
-                © {currentYear} Serenity Nails Spa. All rights reserved.
+                © {currentYear} Powered by Omnivation
               </p>
-              
-              <div className="flex space-x-6 text-sm">
-                <button className="text-background/60 hover:text-background smooth-transition">
-                  Privacy Policy
-                </button>
-                <button className="text-background/60 hover:text-background smooth-transition">
-                  Terms of Service
-                </button>
-              </div>
             </div>
           </div>
 

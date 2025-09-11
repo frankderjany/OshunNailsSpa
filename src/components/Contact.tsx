@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Contact = () => {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/1234567890?text=Hi! I would like to get in touch with Serenity Nails Spa.', '_blank');
+    window.open('https://wa.me/+96170599348?text=Hi! I would like to get in touch with Oshun Nails Spa.', '_blank');
   };
 
   return (
@@ -33,7 +33,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-foreground mb-1">Location</h4>
                       <p className="text-muted-foreground">
-                        123 Serenity Street<br />
+                        123 Oshun Street<br />
                         Beauty District, BD 12345
                       </p>
                     </div>
@@ -114,12 +114,6 @@ const Contact = () => {
                 <div className="flex flex-wrap gap-2 text-sm">
                   <span className="bg-primary/10 text-primary-foreground px-3 py-1 rounded-full">
                     Free Parking
-                  </span>
-                  <span className="bg-primary/10 text-primary-foreground px-3 py-1 rounded-full">
-                    Metro Accessible
-                  </span>
-                  <span className="bg-primary/10 text-primary-foreground px-3 py-1 rounded-full">
-                    Wheelchair Friendly
                   </span>
                 </div>
               </div>

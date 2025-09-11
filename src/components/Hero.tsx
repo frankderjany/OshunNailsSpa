@@ -3,7 +3,7 @@ import heroImage from '@/assets/hero-spa.jpg';
 
 const Hero = () => {
   const handleBookNow = () => {
-    window.open('https://wa.me/1234567890?text=Hi! I would like to book an appointment at Serenity Nails Spa.', '_blank');
+    window.open('https://wa.me/+96170599348?text=Hi! I would like to book an appointment at Oshun Nails Spa.', '_blank');
   };
 
   return (
@@ -19,13 +19,13 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 lg:px-8">
         <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground mb-6 leading-tight">
-          Serenity
+          Oshun
           <span className="block text-4xl md:text-6xl mt-2 text-gold">Nails Spa</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
           Experience luxury and tranquility in our minimalist sanctuary. 
-          Where beauty meets serenity.
+          
         </p>
 
         <Button 

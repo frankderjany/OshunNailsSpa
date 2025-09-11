@@ -1,30 +1,71 @@
 const Services = () => {
   const services = [
     {
-      category: "Manicure Services",
+      category: "Manicure Services (Women - Men)",
       treatments: [
-        { name: "Classic Manicure", duration: "45 min", price: "$35" },
-        { name: "Gel Manicure", duration: "60 min", price: "$45" },
-        { name: "French Manicure", duration: "50 min", price: "$40" },
-        { name: "Luxury Spa Manicure", duration: "75 min", price: "$60" },
+        { name: "Classic Manicure", duration: "45 min", price: "$10 – $15" },
+        { name: "Deluxe Manicure", duration: "60 min", price: "$25 – $30" },
+        { name: "Russian Manicure (+ Polish)", duration: "60 min", price: "$13 – $18" },
+        { name: "Gel / Rubber Color Hands", duration: "60 min", price: "$25" },
       ]
     },
     {
-      category: "Pedicure Services",
+      category: "Pedicure Services (Women - Men)",
       treatments: [
-        { name: "Classic Pedicure", duration: "60 min", price: "$45" },
-        { name: "Gel Pedicure", duration: "75 min", price: "$55" },
-        { name: "Luxury Spa Pedicure", duration: "90 min", price: "$75" },
-        { name: "Medical Pedicure", duration: "60 min", price: "$65" },
+        { name: "Classic Pedicure", duration: "60 min", price: "$15 – $20" },
+        { name: "Deluxe Pedicure", duration: "75 min", price: "$30 – $35" },
+        { name: "Russian Pedicure (+ Polish)", duration: "75 min", price: "$18 – $23" },
+        { name: "Medical Pedicure (Ingrown Nails)", duration: "60 min", price: "$25 – $30" },
       ]
     },
     {
-      category: "Nail Art & Extensions",
+      category: "Nail Extensions & Repair",
       treatments: [
-        { name: "Nail Art Design", duration: "30 min", price: "$15+" },
-        { name: "Acrylic Extensions", duration: "120 min", price: "$65" },
-        { name: "Gel Extensions", duration: "90 min", price: "$70" },
-        { name: "Nail Repair", duration: "15 min", price: "$10" },
+        { name: "Full Set Gel", duration: "120 min", price: "$50" },
+        { name: "Full Set Gel + Gelish", duration: "120 min", price: "$70" },
+        { name: "Full Set Mousse (Victoria Vynn)", duration: "120 min", price: "$55" },
+        { name: "Acrylic Full Set / Refill", duration: "90–120 min", price: "$35 – $70" },
+        { name: "Nail Repair (Gel, Gelish or Polygel)", duration: "15 min", price: "$6 – $10" },
+      ]
+    },
+    {
+      category: "Lashes",
+      treatments: [
+        { name: "Lashes Full Set", duration: "90 min", price: "$60" },
+        { name: "1–3 Week Refill", duration: "30–60 min", price: "$25 – $40" },
+        { name: "Lash Lift + Tint", duration: "60 min", price: "$40" },
+        { name: "Brow Lamination (+ Tint)", duration: "60 min", price: "$40 – $45" },
+      ]
+    },
+    {
+      category: "Make Up",
+      treatments: [
+        { name: "Full Make Up", duration: "90 min", price: "$70" },
+        { name: "Eye Make Up", duration: "45 min", price: "$50" },
+        { name: "Fake Lashes", duration: "15 min", price: "$10" },
+      ]
+    },
+    {
+      category: "Threading",
+      treatments: [
+        { name: "Eyebrow", duration: "15 min", price: "$6" },
+        { name: "Upper Lip", duration: "10 min", price: "$3" },
+        { name: "Chin", duration: "10 min", price: "$3" },
+        { name: "Sideburns", duration: "15 min", price: "$6" },
+        { name: "Full Face", duration: "30 min", price: "$15" },
+      ]
+    },
+    {
+      category: "Waxing",
+      treatments: [
+        { name: "Full Bikini", duration: "30 min", price: "$15" },
+        { name: "Brazilian (Bikini Line)", duration: "30 min", price: "$7" },
+        { name: "Full Legs / Half Legs", duration: "45–60 min", price: "$10 – $18" },
+        { name: "Full Arms / Half Arms", duration: "30–45 min", price: "$7 – $12" },
+        { name: "Under Arms", duration: "15 min", price: "$5" },
+        { name: "Back / Belly", duration: "20–30 min", price: "$7 – $9" },
+        { name: "Full Face", duration: "30 min", price: "$20" },
+        { name: "Full Waxing (Arms, Legs, Underarms, Bikini)", duration: "90 min", price: "$42" },
       ]
     }
   ];
@@ -38,8 +79,8 @@ const Services = () => {
               Our Services
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Indulge in our comprehensive range of nail care services, 
-              each designed to leave you feeling beautiful and serene.
+              Explore our complete range of beauty and nail care services designed 
+              to leave you feeling confident, elegant, and refreshed.
             </p>
           </div>
 
@@ -77,22 +118,7 @@ const Services = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <div className="bg-accent p-8 rounded-lg elegant-shadow max-w-2xl mx-auto">
-              <h3 className="text-2xl font-serif font-medium text-foreground mb-4">
-                Special Packages Available
-              </h3>
-              <p className="text-muted-foreground mb-6">
-                Ask about our monthly membership packages and special occasion packages 
-                for bridal parties, birthdays, and corporate events.
-              </p>
-              <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
-                <span>• Group discounts available</span>
-                <span>• Loyalty rewards program</span>
-                <span>• Gift certificates</span>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
