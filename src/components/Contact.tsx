@@ -44,7 +44,7 @@ const Contact = () => {
                     <div>
                       <h4 className="font-medium text-foreground mb-1">Phone</h4>
                       <p className="text-muted-foreground">
-                        (555) 123-4567
+                      +961 70 599 348
                       </p>
                     </div>
                   </div>

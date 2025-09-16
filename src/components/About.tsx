@@ -26,12 +26,12 @@ const About = () => {
 
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="text-center p-4 bg-primary/10 rounded-lg">
-                  <div className="text-2xl font-serif font-bold text-foreground">5+</div>
-                  <div className="text-sm text-muted-foreground">Years Experience</div>
+                  <div className="text-2xl font-serif font-bold text-foreground">Always Sterilized</div>
+                  
                 </div>
                 <div className="text-center p-4 bg-primary/10 rounded-lg">
-                  <div className="text-2xl font-serif font-bold text-foreground">1000+</div>
-                  <div className="text-sm text-muted-foreground">Happy Clients</div>
+                  <div className="text-2xl font-serif font-bold text-foreground">Pure Elegance</div>
+                  
                 </div>
               </div>
             </div>

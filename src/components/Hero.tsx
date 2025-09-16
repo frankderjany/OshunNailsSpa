@@ -18,12 +18,12 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4 lg:px-8">
-        <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground mb-6 leading-tight">
+        <h1 className="text-5xl md:text-7xl font-serif font-bold text-foreground mb-6 leading-tight text-gold">
           Oshun
-          <span className="block text-4xl md:text-6xl mt-2 text-gold">Nails Spa</span>
+          <span className="block text-4xl md:text-6xl mt-2 text-white">Nails Spa</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-foreground mb-8 max-w-2xl mx-auto leading-relaxed text-white">
           Experience luxury and tranquility in our minimalist sanctuary. 
           
         </p>
@@ -31,7 +31,7 @@ const Hero = () => {
         <Button 
           onClick={handleBookNow}
           size="lg"
-          className="bg-foreground text-background hover:bg-gold hover:text-foreground smooth-transition elegant-shadow text-lg px-8 py-6 font-medium"
+          className="bg-foreground text-background hover:bg-gold hover:text-foreground smooth-transition elegant-shadow text-lg px-8 py-6 font-medium text-black bg-white"
         >
           Book Now
         </Button>

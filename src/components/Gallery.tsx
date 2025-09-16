@@ -4,12 +4,16 @@ import gallery3 from "@/assets/gallery-3.jpg";
 import gallery4 from "@/assets/gallery-4.jpg";
 import gallery5 from "@/assets/gallery-5.jpg";
 import gallery6 from "@/assets/gallery-6.jpg";
+import oshunnight from "@/assets/oshun-night.jpg";
+import gallery7 from "@/assets/gallery-7.jpg";
+import gallery8 from "@/assets/gallery-8.png";
+import gallery9 from "@/assets/gallery-9.png"
 
 const GallerySection = () => {
   const galleryImages = [
     {
-      src: gallery1,
-      alt: "Professional haircut service in progress"
+      src: gallery9,
+      alt: "Satisfied client after premium service"
     },
     {
       src: gallery2,
@@ -24,12 +28,24 @@ const GallerySection = () => {
       alt: "Modern stylish haircut result"
     },
     {
-      src: gallery5,
-      alt: "Professional barber tools and equipment"
+      src: oshunnight,
+      alt: "Oshun Nails Spa"
     },
     {
       src: gallery6,
       alt: "Satisfied client after premium service"
+    },
+    {
+      src: gallery5,
+      alt: "Professional barber tools and equipment"
+    },
+    {
+      src: gallery7,
+      alt: "Satisfied client after premium service"
+    },
+    {
+      src: gallery8,
+      alt: "Professional haircut service in progress"
     }
   ];
 

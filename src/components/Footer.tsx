@@ -103,7 +103,7 @@ const Footer = () => {
                 <p>123 Oshun Street</p>
                 <p>Beauty District, BD 12345</p>
                 <p>+961 70 599 348</p>
-                <p>hello@oshunnailsspa.com</p>
+                <p>oshunnailsspa@gmail.com</p>
               </div>
             </div>
           </div>
@@ -112,7 +112,7 @@ const Footer = () => {
           <div className="pt-8 border-t border-background/20 place-items-center">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <p className="text-background/60 text-sm mb-4 md:mb-0">
-                © {currentYear} Powered by Omnivation
+                © {currentYear}. Powered by Omnivation
               </p>
             </div>
           </div>

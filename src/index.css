@@ -91,7 +91,7 @@
 
 @layer components {
   .hero-gradient {
-    background: var(--gradient-hero);
+    background-color: rgba(0, 0, 0, 0.4); /* adjust 0.5 for more/less darkness */
   }
   
   .gold-gradient {
