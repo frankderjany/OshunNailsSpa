@@ -12,22 +12,6 @@ import gallery9 from "@/assets/gallery-9.png"
 const GallerySection = () => {
   const galleryImages = [
     {
-      src: gallery9,
-      alt: "Satisfied client after premium service"
-    },
-    {
-      src: gallery2,
-      alt: "Expert beard trimming and grooming"
-    },
-    {
-      src: gallery3,
-      alt: "Traditional straight razor shave"
-    },
-    {
-      src: gallery4,
-      alt: "Modern stylish haircut result"
-    },
-    {
       src: oshunnight,
       alt: "Oshun Nails Spa"
     },
@@ -39,6 +23,23 @@ const GallerySection = () => {
       src: gallery5,
       alt: "Professional barber tools and equipment"
     },
+    {
+      src: gallery2,
+      alt: "Expert beard trimming and grooming"
+    },
+    {
+      src: gallery9,
+      alt: "Satisfied client after premium service"
+    },
+    {
+      src: gallery3,
+      alt: "Traditional straight razor shave"
+    },
+    {
+      src: gallery4,
+      alt: "Modern stylish haircut result"
+    },
+
     {
       src: gallery7,
       alt: "Satisfied client after premium service"

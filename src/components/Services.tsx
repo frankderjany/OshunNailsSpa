@@ -3,18 +3,18 @@ const Services = () => {
     {
       category: "Manicure Services (Women - Men)",
       treatments: [
-        { name: "Classic Manicure", duration: "45 min", price: "$10 – $15" },
+        { name: "Classic Manicure", duration: "35 min", price: "$10 – $15" },
         { name: "Deluxe Manicure", duration: "60 min", price: "$25 – $30" },
-        { name: "Russian Manicure (+ Polish)", duration: "60 min", price: "$13 – $18" },
-        { name: "Gel / Rubber Color Hands", duration: "60 min", price: "$25" },
+        { name: "Russian Manicure (+ Polish)", duration: "45 min", price: "$13 – $18" },
+        { name: "Gelish / Rubber Color Hands", duration: "60 min", price: "$25 - $28" },
       ]
     },
     {
       category: "Pedicure Services (Women - Men)",
       treatments: [
-        { name: "Classic Pedicure", duration: "60 min", price: "$15 – $20" },
+        { name: "Classic Pedicure", duration: "45 min", price: "$15 – $20" },
         { name: "Deluxe Pedicure", duration: "75 min", price: "$30 – $35" },
-        { name: "Russian Pedicure (+ Polish)", duration: "75 min", price: "$18 – $23" },
+        { name: "Russian Pedicure (+ Polish)", duration: "55 min", price: "$18 – $23" },
         { name: "Medical Pedicure (Ingrown Nails)", duration: "60 min", price: "$25 – $30" },
       ]
     },
@@ -48,11 +48,11 @@ const Services = () => {
     {
       category: "Threading",
       treatments: [
-        { name: "Eyebrow", duration: "15 min", price: "$6" },
-        { name: "Upper Lip", duration: "10 min", price: "$3" },
+        { name: "Eyebrow", duration: "10 min", price: "$6" },
+        { name: "Upper Lip", duration: "5 min", price: "$3" },
         { name: "Chin", duration: "10 min", price: "$3" },
         { name: "Sideburns", duration: "15 min", price: "$6" },
-        { name: "Full Face", duration: "30 min", price: "$15" },
+        { name: "Full Face", duration: "20 min", price: "$15" },
       ]
     },
     {
